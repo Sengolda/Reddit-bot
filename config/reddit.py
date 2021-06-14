@@ -1,6 +1,6 @@
 class Config:
     id: str
-    secret:
+    secret: str
     user_name: str
     user_agent: str
 
