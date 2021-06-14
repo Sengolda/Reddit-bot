@@ -87,7 +87,7 @@ class Reddit(commands.Cog):
     @commands.command()
     async def dog(self,ctx):
         """
-        Get a random cat pic from r/dogpictures
+        Get a random dog pic from r/dogpictures
         """
         await ctx.trigger_typing()
         subreddit = await reddit.subreddit("dogpictures")
